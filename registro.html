@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/componentes/card.css">
     <link rel="stylesheet" href="./assets/css/componentes/inputs.css">
     <link rel="stylesheet" href="./assets/css/componentes/button.css">
+    <script defer src="./js/validaciones.js"></script>
 </head>
 <body>
     <main class="container flex flex--column flex--center">
@@ -42,7 +43,7 @@
                 <fieldset>
                     <legend class="form__label">Información personal</legend>
                     <div class="input-container">
-                        <input name="birth" id="birth" class="input" type="text" placeholder="Fecha de nacimento">
+                        <input name="birth" id="birth" class="input" placeholder="Fecha de nacimento" type="date" requiered>
                         <label class="input-label" for="birth">Fecha de nacimiento</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
