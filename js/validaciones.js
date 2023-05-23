@@ -39,8 +39,18 @@ const mensajesDeError = {
     customError: "Debes tener almenos 18 años",
     valueMissing: "El campo Fecha de nacimiento no puede estar vacio",
   },
-  numeroTelefonico: {},
-  direccion: {},
+  numeroTelefonico: {
+    valueMissing: "El campo Numero telefonico no puede estar vacio",
+  },
+  direccion: {
+    valueMissing: "El campo Direccion no puede estar vacio",
+  },
+  ciudad: {
+    valueMissing: "El campo Ciudad no puede estar vacio",
+  },
+  estado: {
+    valueMissing: "El campo Estado no puede estar vacio",
+  },
 };
 
 const validadores = {
